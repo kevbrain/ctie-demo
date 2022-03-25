@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ServiceAccount
 metadata:
-  namespace: {{ocp-namespace}}
+  namespace: ctie-demo-dev
   name: ctie-demo-sa
   labels:
     bil.com/ibm-user: 'ca123121'
